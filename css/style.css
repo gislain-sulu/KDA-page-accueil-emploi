@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+*{
+    background: border-box;
+    margin:0;
+    padding: 0;
+}
+
+/* STYLE HEADER */
+
+header{
+    padding: 10px 40px 10px 15px ;
+    background-color: #D92950;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation a img{
+    width: 100px;
+    height: 70px;
+}
+.menu{
+    flex: 1;
+    text-align: end;
+}
+.menu>*{
+    font: 16px Roboto,sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-left: 60px;
+    text-decoration: none;
+    padding-bottom:5px;    
+}
+
+.menu a:hover{
+    border-bottom:solid 2px #ff046b;
+    
+}
